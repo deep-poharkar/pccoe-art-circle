@@ -1,0 +1,64 @@
+.about,
+.contact,
+.work {
+  position: absolute;
+  top: calc(50% - 14px);
+  line-height: 28px;
+}
+.about {
+  right: 210px;
+}
+.contact,
+.work {
+  cursor: pointer;
+}
+.work {
+  right: 119px;
+}
+.contact {
+  right: 0;
+}
+.navNavMenu {
+  top: calc(50% - 14px);
+  right: 50px;
+  width: 261px;
+  height: 28px;
+}
+.logo,
+.logo1,
+.navNavMenu {
+  position: absolute;
+}
+.logo1 {
+  top: 0;
+  left: 0;
+  line-height: 30px;
+  font-weight: 600;
+}
+.logo {
+  top: calc(50% - 15px);
+  left: 50px;
+  width: 49px;
+  height: 30px;
+  font-size: var(--subtitle1-size);
+}
+.navigation {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 80px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.pxPortfolioTemplate {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-text1-size);
+  color: var(--black1);
+  font-family: var(--subtitle1);
+}

@@ -1,0 +1,71 @@
+.brandingImage {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 557px;
+}
+.unleashThe {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.creativity {
+  margin: 0;
+}
+.myAwesomePortfolioContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.myAwesomePortfolioContainer {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 90px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 557px;
+}
+.andIMade {
+  position: relative;
+  font-size: var(--body-text1-size);
+  line-height: 27px;
+  display: inline-block;
+  width: 557px;
+}
+.headlineSubhead {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.imageIcon {
+  position: relative;
+  width: 495px;
+  height: 424px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.header,
+.header1 {
+  display: flex;
+  align-items: center;
+}
+.header1 {
+  width: 1080px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-md);
+  justify-content: center;
+  text-align: left;
+  font-size: var(--subtitle1-size);
+  color: var(--black1);
+  font-family: var(--subtitle1);
+}

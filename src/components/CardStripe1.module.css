@@ -1,0 +1,49 @@
+.imageIcon {
+  position: relative;
+  width: 315px;
+  height: 315px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.projectTitle,
+.uiArtDrection {
+  position: relative;
+  display: inline-block;
+  width: 315px;
+}
+.projectTitle {
+  line-height: 30px;
+  font-weight: 600;
+}
+.uiArtDrection {
+  font-size: var(--body-text1-size);
+  line-height: 27px;
+}
+.headlineSubhead {
+  flex-direction: column;
+}
+.headlineSubhead,
+.stripe1,
+.workCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workCard {
+  flex-direction: column;
+}
+.headlineSubhead {
+  width: 315px;
+  gap: var(--gap-4xs);
+}
+.workCard {
+  gap: var(--gap-xs);
+}
+.stripe1 {
+  flex-direction: row;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--subtitle1-size);
+  color: var(--black1);
+  font-family: var(--subtitle1);
+}

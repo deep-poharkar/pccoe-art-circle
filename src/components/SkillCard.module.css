@@ -1,0 +1,46 @@
+.imagePlaceholderIcon {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mainTitle,
+.thisIsA {
+  position: relative;
+  display: inline-block;
+  width: 249.9px;
+}
+.mainTitle {
+  line-height: 42px;
+  font-weight: 600;
+}
+.thisIsA {
+  font-size: var(--body-text1-size);
+  line-height: 27px;
+}
+.headlineSubhead,
+.skill,
+.skill1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headlineSubhead {
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.skill,
+.skill1 {
+  align-items: center;
+}
+.skill1 {
+  gap: var(--gap-xl);
+}
+.skill {
+  text-align: center;
+  font-size: var(--h31-size);
+  color: var(--black1);
+  font-family: var(--subtitle1);
+}
