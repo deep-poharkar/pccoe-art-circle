@@ -8,13 +8,13 @@ import styles from "./PxPortfolioTemplate.module.css";
 const PxPortfolioTemplate: FunctionComponent = () => {
   const onWorkTextClick = useCallback(() => {
     window.open(
-      "https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-portfolio22&utm_medium=figma-samples"
+      "http://www.pccoepune.com/"
     );
   }, []);
 
   const onContactTextClick = useCallback(() => {
     window.open(
-      "https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-portfolio22&utm_medium=figma-samples"
+      "http://www.pccoepune.com/"
     );
   }, []);
 
